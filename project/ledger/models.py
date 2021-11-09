@@ -1,6 +1,6 @@
 from django.db import models
 
-
+# test comment
 
 class Budget(models.Model):
     budget_id = models.AutoField(verbose_name='Budget ID', primary_key=True)
